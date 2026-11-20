@@ -6,7 +6,7 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/Geekzix/calorie-snap-commons/domain/constant"
+	"github.com/Geekzix/calorie-snap-commons/common/constant"
 )
 
 type ApiHandler func(w http.ResponseWriter, r *http.Request) error
